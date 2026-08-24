@@ -1,6 +1,6 @@
 # 🌟 DailyBoard
 
-DailyBoard adalah aplikasi manajemen harian berbasis web untuk mencatat tugas, catatan cepat, serta memantau cuaca dan kutipan harian secara real-time.
+DailyBoard adalah aplikasi manajemen harian berbasis web untuk mencatat tugas, catatan cepat, serta memantau cuaca dan kutipan harian secara real-time
 
 ## 🚀 Fitur Utama
 - Daftar Tugas (Todo List): Tambah, hapus, edit, tandai selesai, filter status, dan fitur Drag & Drop prioritas tugas
