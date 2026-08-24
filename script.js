@@ -51,7 +51,7 @@ app.appendChild(tugas);
 tambahBtn.addEventListener("click", () => {
     const nilai = input.value.trim();
     if (validasiInput(nilai)) {
-        daftarTugas = tambahTugas(daftarTugas, nilai); // Pakai rumus dari tugas.js
+        daftarTugas = tambahTugas(daftarTugas, nilai);
         simpanData("daftarTugas", daftarTugas);
         renderTugas();
         input.value = "";
@@ -254,7 +254,7 @@ tombolCuaca.addEventListener("click", async () => {
     const kota = inputKota.value.trim();
     if(kota !== "") {
         info.innerHTML = "mencari cuaca";
-        info.innerHTML = await ambilCuaca(kota); // Memanggil dari api.js
+        info.innerHTML = await ambilCuaca(kota);
     }
 });
 
